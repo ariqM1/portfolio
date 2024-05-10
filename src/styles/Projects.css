@@ -3,15 +3,24 @@
 }
 
 .project {
-  max-width: 80%; /* Adjust this value as needed */
-  margin: 0 auto; /* Centers the container horizontally */
+  max-width: 80%;
+  margin: 0 auto;
   padding: 3rem;
   font-weight: 500;
 }
 
 .project-tile {
   display: inline-block;
-  width: 48%; /* Increased width for larger tiles */
-  margin: 1%; /* Adjust spacing between tiles */
+  width: 48%;
+  margin: 1%;
   vertical-align: top;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .project-tile {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+  }
 }

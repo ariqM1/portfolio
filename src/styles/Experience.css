@@ -105,3 +105,28 @@ p {
 .contact-info a:hover {
   text-decoration: underline;
 }
+*/ .resume {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 500;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .resume {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Remove two-columns flex layout */
+  .two-columns {
+    display: block;
+  }
+
+  /* Adjust column widths */
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}
