@@ -10,6 +10,7 @@ function Home() {
   return (
     <div className="intro">
       <div className="name">Hello, I'm Ariq</div>
+      <div className="me">I'm a full-stack software engineer at Genesys</div>
       <div className="social-icons">
         <a
           href="https://github.com/ariqM1"

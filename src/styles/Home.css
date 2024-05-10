@@ -15,6 +15,12 @@
   padding-bottom: 0.5rem;
 }
 
+.me {
+  font-size: 1.75rem;
+  width: 75%;
+  padding-bottom: 0.5rem;
+}
+
 .social-icons {
   display: flex;
   width: 75%;
