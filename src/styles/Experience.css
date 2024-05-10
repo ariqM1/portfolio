@@ -45,8 +45,13 @@ p {
   margin-top: 2px;
 }
 
+.education {
+  margin-left: 1rem;
+}
+
 /* Experience Styles */
 .experience {
+  margin-left: 1rem;
   margin-bottom: 10px;
 }
 
@@ -69,6 +74,10 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 5px;
+}
+
+.projects {
+  margin-left: 1rem;
 }
 
 /* Layout Styles */
