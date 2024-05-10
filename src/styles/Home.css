@@ -1,0 +1,28 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 24rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.name {
+  font-size: 3rem;
+  width: 75%;
+  padding-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  width: 75%;
+  gap: 0.5rem;
+}
+.email-icon,
+.github-icon,
+.linkedin-icon {
+  font-size: 3rem;
+  color: black;
+}

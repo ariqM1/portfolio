@@ -1,0 +1,98 @@
+.resume {
+  width: 70%;
+  margin: 0 6rem;
+  padding: 10px;
+  font-weight: 500;
+}
+
+/* General Styles */
+h1,
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 5px; /* Added margin-top */
+  margin-bottom: 6px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #666;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+/* Experience Styles */
+.experience {
+  margin-bottom: 10px;
+}
+
+.experience h3 {
+  font-weight: bold;
+}
+
+.experience p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.experience ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.experience li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+/* Layout Styles */
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+  width: 48%;
+}
+
+/* Contact Info Styles */
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
