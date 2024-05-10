@@ -2,15 +2,13 @@ import {
   Card,
   CardActions,
   CardContent,
-  CardMedia,
   Link,
   Typography,
 } from "@mui/material";
 
-const TileComponent = ({ imageSrc, githubLink, title, description }) => {
+const TileComponent = ({ githubLink, title, description }) => {
   return (
     <Card>
-      <CardMedia component="img" alt="Tile Image" image={imageSrc} />
       <CardContent>
         <Typography variant="h6" component="h3" gutterBottom>
           {title}

@@ -3,16 +3,15 @@
 }
 
 .project {
-  width: 50rem;
-  margin: 0 6rem;
+  max-width: 80%; /* Adjust this value as needed */
+  margin: 0 auto; /* Centers the container horizontally */
   padding: 3rem;
-  margin-left: 10rem;
-  margin-right: 5rem;
   font-weight: 500;
 }
 
 .project-tile {
   display: inline-block;
-  margin: 3%;
-  width: 20rem;
+  width: 48%; /* Increased width for larger tiles */
+  margin: 1%; /* Adjust spacing between tiles */
+  vertical-align: top;
 }
