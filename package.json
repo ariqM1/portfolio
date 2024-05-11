@@ -20,10 +20,6 @@
     "react-router-dom": "^6.23.0",
     "save-dev": "^0.0.1-security",
     "styled-components": "^6.1.11"
-  },
-  "module.exports": {
-  "basePath": "/nextjs-page",
-  "assetPrefix": "/nextjs-page/"
-}
+  }
 
 }
