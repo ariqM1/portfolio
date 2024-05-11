@@ -5,7 +5,6 @@
   font-weight: 500;
 }
 
-/* General Styles */
 h1,
 h2,
 h3,
@@ -22,12 +21,12 @@ h1 {
 h2 {
   font-size: 28px;
   margin-top: 20px;
-  margin-bottom: 10px; /* Reduced margin-bottom */
+  margin-bottom: 10px;
 }
 
 h3 {
   font-size: 22px;
-  margin-top: 5px; /* Added margin-top */
+  margin-top: 5px;
   margin-bottom: 6px;
 }
 
@@ -49,7 +48,6 @@ p {
   margin-left: 1rem;
 }
 
-/* Experience Styles */
 .experience {
   margin-left: 1rem;
   margin-bottom: 10px;
@@ -80,7 +78,6 @@ p {
   margin-left: 1rem;
 }
 
-/* Layout Styles */
 .two-columns {
   display: flex;
   justify-content: space-between;
@@ -91,7 +88,6 @@ p {
   width: 48%;
 }
 
-/* Contact Info Styles */
 .contact-info {
   margin-bottom: 20px;
 }
@@ -105,26 +101,24 @@ p {
 .contact-info a:hover {
   text-decoration: underline;
 }
-*/ .resume {
+
+.resume {
   width: 70%;
   margin: 0 auto;
   padding: 10px;
   font-weight: 500;
 }
 
-/* Media Query for Mobile */
 @media (max-width: 768px) {
   .resume {
     width: 90%;
     margin: 0 auto;
   }
 
-  /* Remove two-columns flex layout */
   .two-columns {
     display: block;
   }
 
-  /* Adjust column widths */
   .left-column,
   .right-column {
     width: 100%;
