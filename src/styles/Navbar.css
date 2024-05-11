@@ -42,10 +42,12 @@ body {
 
 .projects {
   font-weight: 500;
+  padding-left: 2rem;
 }
 
 .experience {
   font-weight: 500;
+  padding-left: 2rem;
 }
 
 .about {
