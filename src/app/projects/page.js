@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import "../styles/Projects.css";
-import TileComponent from "./TileComponent";
+import TileComponent from "../../components/TileComponent";
+import "../../styles/Projects.css";
 const projectData = [
   {
     title: "Discord Siri Bot",

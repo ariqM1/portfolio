@@ -1,21 +1,20 @@
 "use client";
-
+import Link from "next/link"; // Import Link from next/link
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 
 function Navbar() {
   return (
     <nav className="nav">
       <div className="home">
-        <Link to="/">Ariq Mukul</Link>
+        <Link href="/">Ariq Mukul</Link>
       </div>
       <ul>
         <li className="projects">
-          <Link to="/projects">Projects</Link>
+          <Link href="/projects">Projects</Link>
         </li>
         <li className="experience">
-          <Link to="/experience">Experience</Link>
+          <Link href="/experience">Experience</Link>
         </li>
       </ul>
     </nav>
