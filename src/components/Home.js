@@ -20,7 +20,7 @@ function Home() {
           <LiaGithubSquare className="github-icon" />
         </a>
         <a
-          href="https://www.linkedin.com/in/ariq-mukul-b67553205/"
+          href="https://www.linkedin.com/in/ariq-mukul/"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -9,21 +9,24 @@ function Resume() {
         <a href="mailto:ariqmukul@gmail.com">ariqmukul@gmail.com</a>{" "}
         <a href="https://github.com/ariqM1">github.com/ariqM1</a>{" "}
         <a
-          href="https://www.linkedin.com/in/ariq-mukul-b67553205/"
+          href="https://www.linkedin.com/in/ariq-mukul/"
           target="_blank"
           rel="noopener noreferrer"
         >
           linkedin.com/in/ariq-mukul
         </a>
       </div>
+
       <h2>Education</h2>
       <div className="education">
         <h3>Georgia Institute of Technology</h3>
         <p>
-          {" "}
           Bachelor of Science in Computer Science <br />
+          Highest Honors with contentration in AI and Human-Computer Interaction
+          <br />
         </p>
       </div>
+
       <h2>Experience</h2>
       <div className="two-columns">
         <div className="left-column">
@@ -37,8 +40,6 @@ function Resume() {
               "Incorporated automated testing paradigms streamlining bug identification by 30% for better code practices.",
             ]}
           />
-          <br />
-          <br />
           <Experience
             title="Software Engineer Intern"
             company="United Launch Alliance"
@@ -62,41 +63,39 @@ function Resume() {
           />
         </div>
       </div>
+
       <h2>Projects</h2>
-      <div className="projects">
-        <div className="two-columns">
-          <div className="right-column">
-            <Experience
-              title="JustHealth"
-              date="Startup providing healthcare transparency through procedure cost
+      <div className="two-columns">
+        <div className="left-column">
+          <Experience
+            title="JustHealth"
+            date="Startup providing healthcare transparency through procedure cost
               data, cost comparisons, and data analytics."
-              description={[
-                "Worked as cofounder, data engineer, and full-stack developer using Python, ReactJS, Node.js, MySQL, and AWS to launch thefirst version of JustHealth's web application.",
-                "Placed second overall in Georgia Tech Create-X Capstone Design Competition.",
-              ]}
-            />
-            <Experience
-              title="NBA Stats Tracker"
-              description={[
-                "Designed a user-centric RESTful API, using ExpressJS and NodeJS, following CRUD principles.",
-                "Showcased the API's potency by merging it with various open-source applications on Github, thereby offering comprehensive NBA stats analytics.",
-              ]}
-            />
-          </div>
-          <div className="left-column">
-            <Experience
-              title="Discord Siri Bot"
-              date="May 2022 - August 2022"
-              description={[
-                "Developed a Discord bot using Python and the Discord.py library, allowing users to interact with the bot through voice and text commands.",
-                "Utilized the Google Cloud Speech-to-Text API to transcribe user speech into text, enabling the bot to recognize and respond to user queries.",
-              ]}
-            />
-            <br />
-            <br />
-          </div>
+            description={[
+              "Worked as cofounder, data engineer, and full-stack developer using Python, ReactJS, Node.js, MySQL, and AWS to launch the first version of JustHealth's web application.",
+              "Placed second overall in Georgia Tech Create-X Capstone Design Competition.",
+            ]}
+          />
+          <Experience
+            title="NBA Stats Tracker"
+            description={[
+              "Designed a user-centric RESTful API, using ExpressJS and NodeJS, following CRUD principles.",
+              "Showcased the API's potency by merging it with various open-source applications on Github, thereby offering comprehensive NBA stats analytics.",
+            ]}
+          />
+        </div>
+        <div className="right-column">
+          <Experience
+            title="Discord Siri Bot"
+            date="May 2022 - August 2022"
+            description={[
+              "Developed a Discord bot using Python and the Discord.py library, allowing users to interact with the bot through voice and text commands.",
+              "Utilized the Google Cloud Speech-to-Text API to transcribe user speech into text, enabling the bot to recognize and respond to user queries.",
+            ]}
+          />
         </div>
       </div>
+
       <div className="two-columns">
         <div className="left-column">
           <h3>Skills</h3>
